@@ -53,7 +53,7 @@ class App extends Component {
           <div>
             <Nav />
 
-            <p className="App-intro">
+            <div className="App-intro">
               <Route exact path="/" component={Home} />
               <Route exact path="/ducks" component={Ducks} />
               <Route exact path="/pragmatic-state" component={PragmaticState} />
@@ -73,7 +73,7 @@ class App extends Component {
                 path="/use-the-platform"
                 component={UseThePlatform}
               />
-            </p>
+            </div>
           </div>
         </Router>
       </div>
