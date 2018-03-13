@@ -23,25 +23,33 @@ const kittens = [
   }
 ]
 
-let myKittens = [];
-for (let i = 0; i < kittens.length; i++) {
-  const kitten = kittens[i];
-  if (kitten.color === 'gray') {
-    myKittens.push(kitten.name);
-  }
-}
-let myFavoriteKitten;
-for (let i = 0; i < myKittens.length; i++) {
-  const kitten = myKittens[i];
-  if (kitten === 'Potatoes') {
-    myFavoriteKitten = kitten;
-  }
-}
-console.log(myFavoriteKitten);
+// ----------------
+// old
+// ----------------
+// let myKittens = [];
+// for (let i = 0; i < kittens.length; i++) {
+//   const kitten = kittens[i];
+//   if (kitten.color === 'gray') {
+//     myKittens.push(kitten.name);
+//   }
+// }
 
-const myFavoriteKitten2 = kittens
+// let myFavoriteKitten;
+// for (let i = 0; i < myKittens.length; i++) {
+//   const kitten = myKittens[i];
+//   if (kitten === 'Potatoes') {
+//     myFavoriteKitten = kitten;
+//   }
+// }
+// ----------------
+
+// ----------------
+// new
+// ----------------
+const myFavoriteKitten = kittens
   .filter(kitten => kitten.color === 'gray')
   .map(kitten => kitten.name)
   .find(kitten => kitten === 'Potatoes');
+// ----------------
 
-console.log(myFavoriteKitten2);
+console.log(myFavoriteKitten);
