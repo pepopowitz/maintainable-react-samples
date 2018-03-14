@@ -69,7 +69,7 @@ const store = createStore(reducers);
 
 export default function() {
   return <Provider store={store}>
-    <FeatureBlock title="React for component state">
+    <FeatureBlock title="Redux for component state">
       <KittenLovesMeCheckboxContainer />
     </FeatureBlock>
   </Provider>;
