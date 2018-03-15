@@ -1,0 +1,23 @@
+shell
+  layout.jsx
+  layout.css
+user
+  login
+    index.jsx
+    index.css
+    api-client.js
+  register
+    index.jsx
+    index.css
+    api-client.js
+kittenForm
+  index.jsx
+  api-client.js
+  kittenLovesMeCheckbox.jsx
+  kittenLovesMeCheckbox.css
+  kittenName.jsx
+  kittenName.css
+feedKitten
+  index.jsx
+  api-client.js
+  ...
