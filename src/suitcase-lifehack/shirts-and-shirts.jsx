@@ -1,0 +1,20 @@
+components
+  kittenLovesMeCheckbox.jsx
+  kittenName.jsx
+  layout.jsx
+  login.jsx
+  register.jsx
+pages
+  feedKitten.jsx
+  kittenForm.jsx
+  login.jsx
+  register.jsx
+api
+  api-client.js
+styles
+  feedKitten.css
+  kittenLovesMeCheckbox.css
+  kittenName.css
+  layout.css
+  login.css
+  register.css
