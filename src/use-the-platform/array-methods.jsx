@@ -1,6 +1,12 @@
 import React from "react";
+import FeatureBlock from "../cross-cutting/FeatureBlock";
+
 export default function() {
-  return <div>array methods</div>;
+  return (
+    <FeatureBlock title="Array methods">
+      <div>(see code)</div>
+    </FeatureBlock>
+  );
 }
 
 const kittens = [
